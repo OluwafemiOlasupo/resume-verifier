@@ -1,0 +1,26 @@
+# Common
+.DS_Store
+.env
+.env.local
+
+# Backend
+backend/.venv/
+backend/__pycache__/
+backend/*.pyc
+backend/.pytest_cache/
+backend/.python-version
+
+# Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.next/
+frontend/.eslintcache
+
+# Tooling
+.cursor/
+.idea/
+.vscode/
+uv.lock
+bun.lockb
+node_modules/
+dist/
